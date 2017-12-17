@@ -1,9 +1,9 @@
-int red = 12;
-int yellow = 11;
-int green = 10;
-int f_red = 9;
-int f_green = 8;
-int button = 2;
+const int red = 12;
+const int yellow = 11;
+const int green = 10;
+const int f_red = 9;
+const int f_green = 8;
+const int button = 2;
 
 void setup() {
   pinMode(red, OUTPUT);
@@ -35,7 +35,7 @@ void loop() {
     delay(600);
     digitalWrite(red, LOW);
     digitalWrite(yellow, LOW);
-    digitalWrite(green HIGH);
+    digitalWrite(green, HIGH);
     delay(2000);
   }
 }
